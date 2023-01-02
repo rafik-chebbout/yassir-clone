@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    padding: 10px 35px;
+    font-weight: 200;
+}
+.nav-list{
+    display: flex;
+    padding: 0 10px 0 0;
+    align-items: center;
+}
+.in{
+    color: rgba(0, 0, 0, 0.693);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgba(0, 0, 0, 0.400);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+ 
+    text-transform: uppercase;
+  }
+  
+  
+  li a:hover {
+    color: #111;
+  }
+  .app{
+    text-decoration: none;
+    border: 1px rgb(255, 110, 0) solid;
+    border-radius: 25px;
+    padding: 17px 25px;
+    font-size: 16px;
+  }
+  .app:hover{
+    color: white;
+    background-color: rgb(255,110,0);
+  }
+  .app a:hover{
+    color: white;
+    
+  }
+  .app a{
+    color: rgb(255, 110, 0);
+    text-decoration: none;  
+  }
+  #one .content{
+    display: flex;
+  }
+  #one .content .left{
+    padding: 200px 80px ;
+  }
+  #one .content .left h1{
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  #one .content .left img{
+    height: 50px;
+    width: 150px;
+  }
+  #one .content .right{
+    height: 550px;
+    width: 600px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: -20px;
+  }
+  #one .content .right img{
+    height: 100%;
+    width: 100%;
+  }
+  #one .content .left p{
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.544);
+    padding-top: 40px;
+  }
+  #one .content .left .dawn{
+    padding-top: 40px;
+  }
+  #two .content .top{
+    padding-top: 20px;
+  }
+
+  #two .content .top p{
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 50px;
+  }
+  #two .content .top h1{
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  #two .content .buttom{
+    padding-top: 100px;
+    display: flex;
+  }
+  #two .content .left{
+    height: 450px;
+    width: 550px;
+    padding-top: 20px;
+    padding-left: 100px;
+  }
+  #two .content .left img{
+    height: 100%;
+    width: 100%;
+  }
+  #two .content .right h1{
+    font-size: 2.2rem;
+     font-weight: 700;
+    padding-left: 30px;
+  }
+  #two .content .right p{
+    padding-left: 30px;
+    padding-top: 20px;
+    color: rgba(0, 0, 0, 0.600);
+    font-size: 1.1rem;
+  }
+  #thre  .buttom{
+    padding-top: 100px;
+    display: flex;
+  }
+  #thre  .right{
+    height: 450px;
+    width: 550px;
+    padding-top: 20px;
+    padding-left: 100px;
+  }
+  #thre  .right img{
+    height: 100%;
+    width: 100%;
+  }
+  #thre  .left h1{
+    font-size: 2.2rem;
+     font-weight: 700;
+    padding-left: 30px;
+  }
+  #thre .left p{
+    padding-left: 30px;
+    font-size: 1.2rem;
+    padding-top: 40px;
+    color: rgba(0, 0, 0, 0.600);
+  }
+  #contact{
+    background-image: linear-gradient(orange, rgb(255, 157, 0));
+    padding: 70px 20px;
+}
+  #contact h1{
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+  }
+  #contact p{
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+    padding-top: 20px;
+  }
+  #contact a{
+    border: 1px white solid;
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 10px;
+
+  }
+  footer{
+    background-color: black;
+  }
